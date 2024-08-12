@@ -15,7 +15,8 @@
     .menubar{
         display: block;
     }
-    .banner-buttons{
+    .banner-buttons,
+    .tours{
         flex-direction: column;
     }
     .banner-content{
@@ -35,6 +36,34 @@
         width: 100%;
     }
     .banner-container{
-        height: 400px;
+        height: 420px;
     }
+    .tours-contents,
+    .tours-image{
+        width: 90%;
+    }
+    .destination{
+        margin-top: 1rem;
+    }
+    .destination-contents{
+        width: 90%;
+    }
+    .row1,
+    .row2,
+    .row3{
+        grid-template-columns: 1fr;
+    }
+    .choose-us{
+        margin-top: 1rem;
+    }
+    .choose-card-1{
+        flex-direction: column;
+    }
+    .card-3{
+        width: 100%;
+    }
+    .choose-us-contents p{
+        width: 90%;
+    }
+
 }
