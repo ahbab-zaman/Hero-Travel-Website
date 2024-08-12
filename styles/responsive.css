@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+    .nav-links{
+        display: none;
+    }
+    .nav-logo{
+        gap: 5px;
+    }
+    .nav-title{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .nav-logo img{
+        width: 40px;
+    }
+    .menubar{
+        display: block;
+    }
+    .banner-buttons{
+        flex-direction: column;
+    }
+    .banner-content{
+        padding-top: 1rem;
+        width: 90%;
+    }
+    .banner-buttons{
+        width: 90%;
+    }
+    .banner-buttons .where-btn{
+        padding: 8px 106px 8px 4px;
+    }
+    .banner-buttons .search-btn{
+        padding: 8px 106px 8px 4px;
+    }
+    .banner-buttons button,select{
+        width: 100%;
+    }
+    .banner-container{
+        height: 400px;
+    }
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* common codes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.special-font{
+    font-family: "Mulish", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+}
+.common-description{
+    font-size: 13px;
+    font-weight: 500;
+}
+.primary-color{
+    color: #131318;
+}
+.secondary-color{
+    color: #5A5A5D;
+}
+/* common codes */
+
+/* header css */
+
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.nav-logo{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-title{
+    font-size: 26px;
+    font-weight: 800;
+}
+.travel{
+    color: #FF5400;
+}
+.nav-links li{
+    padding: 1rem;
+    font-weight: 600;
+    color: #424247;
+}
+.menubar {
+    display: none;
+}
+.banner-container{
+    background-image:linear-gradient(rgba(46, 45, 45, 0.8)2px,
+    rgba(112, 108, 108, 0.09) 100%, rgba(78, 76, 76, 0.50)),
+    url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+.banner-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+    margin: auto;
+    padding-top: 8rem;
+    text-align: center;
+    color: #ffffff;
+}
+.banner-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.banner-buttons{
+    background: linear-gradient(rgba(19, 19, 24, 0.182)50%, #1313183d)70%, rgba(255, 255, 255, 0.344)100%;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-buttons button{
+    border: none;
+    border-radius: 5px;
+    padding:8px 20px 5px;
+}
+.banner-buttons select{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px 5px;
+    color: #13131869;
+}
+.where-btn{
+    color: #13131869;
+    background-color: #fff;
+}
+.search-btn{
+    background-color: #FF5400;
+    color: #fff;
+}
+/* header css */
