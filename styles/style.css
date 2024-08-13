@@ -275,4 +275,81 @@
 
 /* choose-us section ends here */
 
+/* deals css */
+
+.deals{
+    flex-direction: column;
+    margin-top: 3rem;
+}
+/* .deals-images{
+    margin-bottom: 1rem;
+} */
+.deals-contents{
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+}
+.deals-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.deals-card-1,
+.deals-card-2,
+.deals-card-3{
+    height: 450px;
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.deals-card-icon i{
+    color: #FF5400;
+    font-size: 20px;
+}
+.deals-card-info-1{
+    background-color: #ffffffb3;
+    padding: 1rem;
+    width: 50%;
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
+}
+.deals-card-info-2{
+    background-color: #ffffffb3;
+    padding: 1rem;
+    width: 50%;
+    position: absolute;
+    left: 20px;
+    border-radius: 10px;
+}
+.deals-card-icon{
+    align-items: center;
+    gap: 12px;
+}
+.deals-card-icon span{
+    gap: 5px;
+}
+.deals-card-info-1 h1{
+    font-weight: 800;
+}
+.deals-card-info-2 h1{
+    font-weight: 800;
+}
+.deals-card-info-1 h2{
+    font-weight: 800;
+    color: #FF5400;
+    margin-bottom: 8px;
+}
+.deals-card-info-2 h2{
+    font-weight: 800;
+    color: #FF5400;
+    margin-bottom: 8px;
+}
+
+/* deals css */
+
 /* main css */

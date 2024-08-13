@@ -62,5 +62,19 @@
     .choose-us-contents p{
         width: 90%;
     }
+    .deals-contents{
+        width: 92%;
+    }
+    .deals-card-info-1,
+    .deals-card-info-2{
+        width: 80%;
+        margin: 0 auto;
+        right: 30px;
+        top: 30px;
+        bottom: 10px;
+    }
+    .deals-card-icon{
+        font-size: 10px;
+    }
 
 }
