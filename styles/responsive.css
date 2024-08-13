@@ -79,5 +79,38 @@
     .deal-btn{
         width: 90%;
     }
+    .deals-card-info-1 h2{
+        font-size: 20px;
+    }
+    .place{
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+    .place-contents,
+    .place-image{
+        width: 90%;
+    }
+    .newsletter{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .newsletter-form,
+    .newsletter-image{
+        width: 100%;
+    }
+    .newsletter-card{
+        bottom: 32px;
+    }
+    .newsletter-card h1{
+        font-size: 16px;
+    }
+    .newsletter-card p{
+        font-size: 11px;
+    }
+    .footer-container{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 
 }
