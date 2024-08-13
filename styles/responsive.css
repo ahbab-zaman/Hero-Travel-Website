@@ -35,9 +35,6 @@
     .banner-buttons button,select{
         width: 100%;
     }
-    .banner-container{
-        height: 420px;
-    }
     .tours-contents,
     .tours-image{
         width: 90%;
