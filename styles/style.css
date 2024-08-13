@@ -349,7 +349,10 @@
     color: #FF5400;
     margin-bottom: 8px;
 }
-
+.deal-btn{
+    width: 20%;
+    margin: 10px auto;
+}
 /* deals css */
 
 /* main css */

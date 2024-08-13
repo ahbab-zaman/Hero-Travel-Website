@@ -76,5 +76,8 @@
     .deals-card-icon{
         font-size: 10px;
     }
+    .deal-btn{
+        width: 90%;
+    }
 
 }
